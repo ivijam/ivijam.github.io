@@ -79,22 +79,19 @@
 
 
 
-<meta name="description" content="简单实现React Toast组件  效果图：">
+<meta name="description" content="简单实现React Toast组件  效果图：   usage  1234567891011121314151617181920212223242526272829import Toast from &apos;../../components/Toast&apos;;/**  * msg: string // 非必填，默认&apos;success&apos; * duration: 3000*/Toast.success(msg,">
 <meta property="og:type" content="article">
 <meta property="og:title" content="手写一个简单的React Toast组件">
 <meta property="og:url" content="http://yoursite.com/2020/07/18/React-Toast组件/index.html">
 <meta property="og:site_name" content="LiangZhiyong的博客">
-<meta property="og:description" content="简单实现React Toast组件  效果图：">
+<meta property="og:description" content="简单实现React Toast组件  效果图：   usage  1234567891011121314151617181920212223242526272829import Toast from &apos;../../components/Toast&apos;;/**  * msg: string // 非必填，默认&apos;success&apos; * duration: 3000*/Toast.success(msg,">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/images/toast-success.jpg">
-<meta property="og:image" content="http://yoursite.com/images/toast-info.jpg">
-<meta property="og:image" content="http://yoursite.com/images/toast-error.jpg">
-<meta property="og:image" content="http://yoursite.com/images/toast-loading.jpg">
-<meta property="og:updated_time" content="2020-07-18T08:57:41.013Z">
+<meta property="og:image" content="http://yoursite.com/images/toast-preview.jpg">
+<meta property="og:updated_time" content="2020-07-18T09:10:45.366Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="手写一个简单的React Toast组件">
-<meta name="twitter:description" content="简单实现React Toast组件  效果图：">
-<meta name="twitter:image" content="http://yoursite.com/images/toast-success.jpg">
+<meta name="twitter:description" content="简单实现React Toast组件  效果图：   usage  1234567891011121314151617181920212223242526272829import Toast from &apos;../../components/Toast&apos;;/**  * msg: string // 非必填，默认&apos;success&apos; * duration: 3000*/Toast.success(msg,">
+<meta name="twitter:image" content="http://yoursite.com/images/toast-preview.jpg">
 
 
 
@@ -312,10 +309,15 @@
 <p>简单实现React Toast组件</p>
 </blockquote>
 <p>效果图：</p>
-<p><img src="/images/toast-success.jpg" width="300"></p>
-<p><img src="/images/toast-info.jpg" width="300"></p>
-<p><img src="/images/toast-error.jpg" width="300"></p>
-<p><img src="/images/toast-loading.jpg" width="300"></p>
+<p><img src="/images/toast-preview.jpg"></p>
+<blockquote>
+<p>usage</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Toast <span class="keyword">from</span> <span class="string">'../../components/Toast'</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/** </span></span><br><span class="line"><span class="comment"> * msg: string // 非必填，默认'success'</span></span><br><span class="line"><span class="comment"> * duration: 3000</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">Toast.success(msg, duration);</span><br><span class="line"></span><br><span class="line"><span class="comment">/** </span></span><br><span class="line"><span class="comment"> * msg: string // 非必填，默认'error'</span></span><br><span class="line"><span class="comment"> * duration: 3000</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">Toast.error(msg, duration);</span><br><span class="line"></span><br><span class="line"><span class="comment">/** </span></span><br><span class="line"><span class="comment"> * msg: string // 必填</span></span><br><span class="line"><span class="comment"> * duration: 3000，默认3000</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">Toast.info(msg, duration);</span><br><span class="line"></span><br><span class="line"><span class="comment">/** </span></span><br><span class="line"><span class="comment"> * msg: string // 非必填，默认'加载中...'</span></span><br><span class="line"><span class="comment"> * duration: number, 不填或者填0，不会自动关闭，需要手动调Toast.hideToast()关闭</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">Toast.loading(msg, duration);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 主动关闭</span></span><br><span class="line">Toast.hideToast()</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>在线预览地址</p>
+</blockquote>
+<p><a href="https://liangzhiyong.xyz/toast" target="_blank" rel="noopener">点击这里</a></p>
 
       
     </div>
